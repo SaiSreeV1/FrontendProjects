@@ -1,0 +1,13 @@
+ /mylogs.log
+mylogs.log
+# ignore all files named mylogs.log even in any folder also
+
+#  only take root log where .gitignore located not all
+*.log
+# ignore all files with .log extension ex:*.csv/*.txt...
+directory/
+<<<<<<< HEAD
+# ignored folder represents folder with
+=======
+# ignored folder represents folder with /
+>>>>>>> feature1
