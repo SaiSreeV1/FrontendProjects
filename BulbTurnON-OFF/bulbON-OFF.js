@@ -36,6 +36,7 @@ imagebulb.style.width="100px";
     //  buttonobj.innerHTML="ON";  
       
   }  */
+  // add on click image bulb on and off
   if (imagebulb.src.match("ONbulb"))
 imagebulb.src = "https://media.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg";
       else
