@@ -1,0 +1,126 @@
+.border1{
+    border:1px solid rgb(84, 252, 238);
+}
+body {
+	background: #04A1BF;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.intro {
+	margin: 30px 0px;
+	font-weight: bold;
+}
+h1 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+p {
+	font-weight: 600;
+}
+
+#first {
+	margin-top: 10px;
+	color: #FFCD5D;
+}
+
+#second {
+	color: #51DF70;
+
+}
+
+#third {
+	color: #025F70;
+	margin-bottom: 20px;
+}
+input {
+border-radius: 5px;
+min-width: 65%;
+min-height: 30px;
+padding: 5px;
+border: none;
+}
+#enter{
+	padding: 10px 15px;
+	color: #0fbcdf;
+	background-color: #025F70;
+	border-radius: 5px;
+	/* border: none; */
+
+	font-weight: normal;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+
+}
+
+#enter:hover{
+	background-color: #10b9d6;
+	color: #FFCD5D;
+}
+
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+.done{
+	
+		background: #51DF70 !important;
+
+}
+
+
+li {
+	list-style: none;
+	cursor: pointer;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #4EB9CD;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+li:hover {
+	background: #76CFE0;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+
+}
+
+.delete {
+	display: none;
+	
+}
+li > span{
+	position:relative;
+	left: 15px;
+       cursor: pointer;    
+            color: #01380b;
+}
+
+ /* .fa{
+	font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}  */
+
+
