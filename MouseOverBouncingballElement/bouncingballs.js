@@ -92,7 +92,10 @@ let size=random(10,20);
 //create loop func
 function loop(){
   //cover the previous frame's drawing before the next one is drawn
-  c.fillStyle='rgba(0, 0, 0 ,0.25)';
+  // c.fillStyle='rgba(0, 0, 0 ,0.25)';
+  // c.fillStyle='rgb(${random(0,255)}, ${random(0,255)}, ${random(0,255)})';
+  c.fillStyle=randomColor();
+  
   c.fillRect(0, 0, width,height);
   //run necessary func
   for (let i = 0; i < balls.length; i++) {
@@ -130,20 +133,20 @@ loop();
 
 // // Math.floor(Math.random() * 10) returns a random integer between 0 and 9 (both ncluded)
 
-// function randomColor() {
-//     return (
-//       "rgba(" +
-//       Math.round(Math.random() * 250) +
-//       "," +
-//       Math.round(Math.random() * 250) +
-//       "," +
-//       Math.round(Math.random() * 250) +
-//       "," +
-//       Math.ceil(Math.random() * 10) / 10 +
-//     //   ceil() rounds a number UPWARDS to the nearest integer
-//       ")"
-//     );
-//   }
+function randomColor() {
+    return (
+      "rgba(" +
+      Math.round(Math.random() * 250) +
+      "," +
+      Math.round(Math.random() * 250) +
+      "," +
+      Math.round(Math.random() * 250) +
+      "," +
+      Math.ceil(Math.random() * 10) / 10 +
+    //   ceil() rounds a number UPWARDS to the nearest integer
+      ")"
+    );
+  }
   
 // // create a ball
 // function Ball(){

@@ -1,0 +1,41 @@
+body{
+    background-color:black ; 
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+.container{
+    width: 100%;
+    /* offset: 100vh; */
+   height: 100vh;
+    display: flex;
+    align-items: center; 
+    /* align items to vertical center of browser */
+    justify-content: center;
+}
+.clock{
+    font-size: 100px;
+    color: rgb(255, 0, 0);
+    border: 3px solid red;
+    padding: 10px;
+    
+}
+.full-date{
+    font-size: 25px;
+    
+
+}
+
+/* body {background-color:#2d2d2d;} 
+
+#timedate {
+  font: small-caps lighter 43px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  text-align:left;
+  width: 50%;
+  margin: 40px auto;
+  color:#fff;
+  border-left: 3px solid #ed1f24;
+  padding: 20px;
+} */

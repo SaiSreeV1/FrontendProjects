@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess Game Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- My approach of coding to this project   -->
+    <!-- <div class="container " id="generateNumber">
+        <div class="row text-center mt-5">
+            <div class="col-md-4">
+                <button class="btn btn-danger mt-3 " id="btn-generate" onclick="generateNumber()">
+                    Generate Number
+                </button>
+                
+            </div>
+        </div>
+    </div> 
+    <div class="container" id="guess_number">
+        <div class="row text-center mt-5">
+            <div class="col-md-4">
+                <h3>Guess your Number in this Game!...</h3>
+                <p class="secondary-text">Please enter your guessed number between 1 to 6</p>
+                <label for=""> Enter Number</label>
+                <input type="text" id="inputIdValue" />
+                <div class="col-md-4 mt-5">
+                    <button class="btn btn-warning" id="btn-check" onclick="check()">Check</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    
+    
+    <!-- section1
+     button: Generate Number
+    
+     section2
+     Guess number
+     img 
+     input field 
+     button:check 
+    
+     section3: loading
+     img
+     heading: generating number -->
+    
+    <div id="section1" class="container text-center mt-5">
+        <button class="btn btn-warning btn-lg" onclick="generate_number_btn_click()">Generate Number</button>
+    </div>
+
+    <div id="section2" class="container">
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <!--column having 12 grids take here as size or divide col grid as 12 i.e single col  -->
+                <!-- img  -->
+            <img class="img-fluid w-25" src="https://tenor.com/view/question-mark-thinking-hmm-think-gif-15112534.gif" alt="" />
+
+            <p class="text-danger">Guess the number between 1 and 6**</p>
+
+            <div class="form-group w-25 mx-auto">
+                <input type="text"  id="input_field" placeholder="Enter here" class="form-control"/>
+            </div>
+
+            <button class="btn btn-primary btn-sm mt-4" onclick="check_number()">Check</button>
+         </div>
+        </div>
+    </div>
+    <div class="container text-center" id="section3">
+        <img class="img-fluid" style="width: 250px;" src="https://thumbs.gfycat.com/SecondTartCygnet-max-1mb.gif" alt=""/>
+        <h3>Generating Number</3>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="number_guess_game.js"></script>
+</body>
+</html>
