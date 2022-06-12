@@ -1,0 +1,219 @@
+#cv-template{
+/* background-color: red ; */
+display: none;
+}
+/* #cv-form{
+display: none;
+} */
+
+.myimg{
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    /* position: relative; */
+    z-index: 1;
+}
+.background_style{
+background-color:rgb(114, 236, 236)
+}
+/* .completedmark{
+    content: "\2714";
+     /* font-size: 30px; 
+     
+     
+    color: rgb(15, 26, 4);
+    
+} */
+/* .completedmark::before{
+    content: "\2714";
+     /* font-size: 30px; 
+     
+     
+    color: rgb(15, 26, 4);
+    
+} */
+
+/* .overlay {
+     
+    /* bottom: 0;  */
+    /* line-height: 0; */
+    /* background: rgb(0, 0, 0); */
+    /* background: rgba(0, 0, 0, 0.5); Black see-through */
+   
+    /* width: 50%;
+    transition: .5s ease;
+    opacity:1; */
+    /* height: 100px; */
+    /* width: 100px; 
+    position:absolute;
+    opacity: 0.7;
+    transition: .3s ease;
+    background: white;
+    border-radius: 50%;
+    /* color:green; 
+    
+    padding: 2px;
+    top: 225px;
+    left: 270px;
+    /* z-index: 1000; */
+   
+    
+   
+    /* text-align: center; 
+  } */
+.overlay {
+     
+    cursor: pointer;
+    
+    position: relative;
+    font-size: 1.8rem;
+    top: -35px;
+    right: -45px;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 3px;
+  }
+  .imgcontcss:hover .overlay{
+      opacity: 1;
+
+  }
+  /* #imgTcss{
+      color: green;
+      font-size: 30px;
+ cursor: pointer;
+ z-index: 4;
+  } */
+  #imgTcss{
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+    font-size: 1.8rem;
+    top: -35px;
+    right: -45px;
+    background-color: beige;
+    border-radius: 50%;
+    padding: 3px;
+  }
+  
+  /* overlay {
+    /* opacity: 0.3; 
+    transition: .3s ease;
+    background: black;
+    border-radius: 50%;
+    top: 227px;
+    /* bottom: 400px; 
+    left: -60px;
+    /* right: -100px; 
+}
+.overlay {
+    position: absolute;
+    /* bottom: 100px; */
+    /* background-size: unset; 
+    width: 50%;
+    /* height: 0%; */
+    /* transition: .5s ease; */
+    /* opacity: 1; 
+    font-size: 20px;
+    line-height: 0;
+    /* padding: 20px; */
+    /* text-align: center; 
+} */
+/*  .checkM{
+    content: "\2713";
+
+} 
+span {
+    background-color: aquamarine;
+}
+.done{
+    background: #51DF70 !important;
+      content: '&#x2714';	
+
+} */
+/* .highlighted {
+    border:2px solid #b404ae;
+    background-image: url(https://www.freepnglogos.com/uploads/tick-png/check-mark-tick-vector-graphic-21.png);
+}
+
+.categories-wrapper {
+    position: relative;
+}
+.category-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+} */
+/* .category-input:checked + label{
+background:red; /* put your image here
+ height: 50px;
+  width: 50px;
+  position: absolute;
+ top:0;
+ left:0;
+} */
+/* .checkmark{
+    content: "✓";
+    color: green;
+    transform: translate(-50%,-50%);
+    z-index:500;
+   
+} */
+/* .completedmark{
+    content: "\2714";
+     /* font-size: 30px; 
+     
+     
+    color: rgb(15, 26, 4);
+    position: absolute;
+    
+    font-size: 2rem;
+    cursor: pointer;
+   right: 0;
+    /* background-image: url(image/tick.png); */
+    /* background-attachment: fixed; 
+} */
+/* .completedmark::before{
+    content: "\2714";
+     /* font-size: 30px; 
+     
+     
+    color: rgb(15, 26, 4);
+    position: absolute;
+            height: 100%;
+            width: 100%;
+            opacity: 0.3;
+            transition: .3s ease;
+            backlground-color: transparent;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+} */
+/* .overlay {
+    
+   
+    opacity: 0.3;
+    transition: .3s ease;
+    background-color: transparent;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+/* .overlay:hover {
+    opacity: 0.7;
+} */
+
+/* .play-icon {
+    position: relative;
+    color: black;
+    font-size: 4rem;
+    cursor: pointer;
+    
+   
+} */
+

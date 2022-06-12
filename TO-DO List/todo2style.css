@@ -1,0 +1,200 @@
+:root {
+    --borderWidth: 7px;
+    --height: 24px;
+    --width: 12px;
+    --borderColor: #78b13f;
+    --img-bg: url("../assets/images/bg-desktop-dark.jpg");
+    --clr-page-bg: hsl(235, 21%, 11%);
+  }
+body{
+    /* background-color: rgb(77, 165, 236); */
+    font-family: cursive;
+    /* background:var(--clr-page-bg) var(--img-bg) no-repeat 0% 0% / 100vw 30rem; */
+    /* background:hsl(235, 37%, 33%) url("https://cdn.everydaypower.com/wp-content/uploads/2018/03/Motivational-Quotes-9.jpg") no-repeat 0% 0% / 100vw 30rem; */
+    background:hsl(235, 37%, 33%) 0% 0% / 100vw 30rem;
+
+
+
+
+    /* background-image: url("https://www.positivethoughtsquote.com/wp-content/uploads/2021/05/20210531_070452.webp"); */
+    /* background-image:url("https://cdn.everydaypower.com/wp-content/uploads/2018/03/Motivational-Quotes-9.jpg"); */
+    /* text-transform: lowercase ; */
+
+}
+
+.close {
+	position: absolute;
+	 right: 0;
+	 display: flex;
+   gap: 10px;
+	top: 0;
+	padding:35px 16px 8px 16px; 
+ 
+    }
+    span{
+        /* position: absolute; */
+        /* margin: auto; */
+        /* background-color: rgb(171, 245, 171);  */
+        color: rgb(3, 77, 3);
+        right: 50px;
+       
+       
+        /* top: 40px; */
+        
+        /* padding:35px 16px 8px 16px;  */
+    }
+    /* .checkmark::before{
+      content: "\263B";
+      display: inline-block; 
+      /* right: 50px; */
+ 
+      /* top: 40px; 
+    } */
+    .completedmark{
+     content: "\263B";
+      /* font-size: 30px; 
+      
+      */
+     color: rgb(15, 26, 4);
+      /* content: '';
+      /* position: absolute; 
+      border-color: #fff;
+      /* border-style: solid; 
+      
+      border-width: 0 2px 2px 0;
+      top: 10px;
+      left: 16px;
+      transform: rotate(45deg);
+      height: 15px;
+      width: 7px; */
+   
+      
+    }
+    .completedmark::before{
+       content: "\263B";
+      /* font-size: 30px; 
+       */
+      color: rgb(15, 26, 4);
+      
+       
+       /* content: '';
+       position: absolute;
+       border-color: #fff;
+       border-style: solid;
+       border-width: 0 2px 2px 0;
+       top: 10px;
+       left: 16px;
+       transform: rotate(45deg);
+       height: 15px;
+       width: 7px; */
+     
+    }
+      .checkmark{
+       
+        /* content: '';
+        border-color: #025013 !important;
+        border-style: solid;
+        border-width: 0 2px 2px 0;
+        margin:0.2px 20px;
+        left: 5px;
+        transform: rotate(45deg);
+        height: 15px;
+        width: 7px;  */
+        /* content: "\2714"; */
+        /* position: relative; */
+        
+        font-family: cursive !important;
+        /* content: "\263B";
+      display: inline-block; */
+      /* right: 50px; */
+ 
+      /* top: 40px; */
+     
+          background-color: rgb(171, 245, 171); 
+          /* color: rgb(15, 26, 4); */
+        
+     
+          
+          /* z-index:500; */
+          /* display: inline-block;   */
+          /* transform: translate(-50%,-50%); */
+          /* transform: translate(0%,0%); */
+        }
+        /* .loadCheckmark::before{
+      
+            /* font-family: "Font Awesome\ 5 Free"; 
+            display: inline-block;
+            /* padding-right: 3px; 
+            font-weight: 900;
+            content: "\263B";
+            /* position: absolute; 
+            
+            
+          }
+          */
+        .checkmark:hover{
+       background-color: rgb(82, 235, 171); 
+       /* color: rgb(15, 26, 4); */
+      cursor: pointer;
+     }
+      /* .fa .fa-check .checkmark{
+     
+      color: rgb(3, 77, 3);;
+      right: 50px;
+     
+      /* top: 20px;  
+    }
+    .fa{
+      /* font-family:"FontAwesome\ 5 Free", "Lobster", sans-serif ; 
+     
+    }
+      
+ .fa-check::before{
+  position: absolute;
+ 
+  /* margin: auto; */
+  /* background-color: rgb(171, 245, 171);  
+  color: rgb(3, 77, 3);
+  right: 50px;
+ 
+  top: 40px;
+  
+} */
+/*  
+.fa-check::after{
+  content: "";
+} */
+    /* .checkmark {
+        display: inline-block;
+        transform: rotate(45deg);
+        height: var(--height);
+        width: var(--width);
+        border-bottom: var(--borderWidth) solid var(--borderColor);
+        border-right: var(--borderWidth) solid var(--borderColor);
+      } */
+
+    /* .checkmark::before {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        height: 50%;
+        width: 3px;
+        background-color: #336699;
+        content: "";
+        transform: translateX(10px) rotate(-45deg);
+        transform-origin: left bottom;
+    }
+      
+     .checkmark::after {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 3px;
+        width: 100%;
+        background-color: #336699;
+        content: "";
+        transform: translateX(10px) rotate(-45deg);
+        transform-origin: left bottom;
+    } */
+     
+    
